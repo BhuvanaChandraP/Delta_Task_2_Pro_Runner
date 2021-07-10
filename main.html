@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <title>Pro Runner Game</title>
+     
+</head>
+<body onload = "startGame()">
+    <div id = "SR">
+        <div class = "score"></div>
+        <a href = main.html ><button id = "restart">Restart</button></a>
+    </div>
+    
+    <div class = "SBoard">
+        <h3 id = "ScoreBoard"  class= "font-effect-shadow-multiple" >Leader Board</h3>
+        <ol id="list" type = "1"></ol>
+        <!-- <ul id="list1"></ul> -->
+    </div>
+    
+    <audio id="lost">
+        <source src="lost.wav" type="audio/wav">          
+    </audio>
+    <a href = main.html ><button id = "restart">Restart</button></a> 
+    <!-- <button>Restart</button> -->
+    <script src = "script.js"></script> 
+    <!-- <script src="app1.js"></script>  -->
+</body>
+</html>

@@ -1,0 +1,164 @@
+body{
+    background-color: cornsilk;
+}
+
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #757678;   
+    position: absolute;
+    left:380px;
+    top:5px;
+  
+}
+.score{
+    font-size: 30px;
+    color: rgb(247, 0, 49);
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.SBoard{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    
+    font-size: 20px;
+}
+h3{
+    font-size: 35px;
+    color: rgb(255, 25, 140);
+}
+/* li{
+   
+
+} */
+#restart{
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    padding: 12px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 114, 114);
+    font-size: 25px;
+    font-weight: bold;
+}
+#restart:hover{
+    color: rgb(34, 255, 5);
+    background-color: rgb(47, 56, 56);
+}
+
+
+@media(max-width: 1300px){
+
+ #restart{
+        /* display: flex;
+        justify-content: center; */
+        position: absolute;
+        top:120px;
+        /* right:1px; */
+        left:300px;
+        /* margin: auto; */
+}
+
+canvas{
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    top:250px;
+    left: 1px;
+    width:400px;
+    /* margin: auto; */
+
+}
+#SBoard{
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    top:650px;
+    /* margin: auto; */
+}
+.score{
+    position: absolute;
+    top:20px;
+    /* right:1px; */
+    left:50px;
+    /* margin: auto; */
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #0b3526;
+    margin-top: 100px;
+}
+.score
+{
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#restart {
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: large;
+    margin: 2%;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+#startButton {
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: large;
+    margin: 2%;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+     position: absolute;
+    top :450px;
+    right: 650px; 
+}
+#list{
+   position: absolute;
+    list-style: none;
+    right: 40px;
+    top: 40px;
+} */
+/* #playAgain{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: large;
+    margin: 2%;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top :450px;
+    right: 450px;
+} */
