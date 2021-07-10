@@ -242,7 +242,7 @@ for(;userName == "";)
                 var holeTop = holePosition.y;
                 var holeBottom = holePosition.y + (holePosition.height);
                 var crash = true;
-                if ((bottom < holeTop) || (top > holeBottom) || (right < holeLeft) || (left > holeRight)) {      //(bottom < holeTop) || (top > holeBottom) ||
+                if ((bottom < holeTop) || (top > holeBottom) || (right < holeLeft+20) || (left > holeRight-20)) {      //(bottom < holeTop) || (top > holeBottom) ||
                     crash = false;
                 }
                 return crash;
