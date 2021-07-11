@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(7, 7, 7);
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+#welcomeText{
+    font-family: "Sofia", sans-serif;
+    font-size: 90px;
+}
+h3{
+    color: azure;
+    font-size: 35px;
+}
+button{
+    font-size: 30px;
+    padding: 8px;
+    color: rgb(8, 247, 60);
+    background-color: rgba(161, 194, 255, 0.171);
+    border-radius: 6px;
+}
+button:hover{
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 254, 254);
+}
