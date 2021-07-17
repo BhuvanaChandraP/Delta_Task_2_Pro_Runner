@@ -56,6 +56,11 @@ for(;userName == "";)
             names = JSON.parse(localStorage.getItem("array"));
             
             //console.log(names);
+           if(names == null)
+            {
+                names = [];
+                names.push([userName,highScore]);
+            }
             
             for(i=0;i<names.length;i++)
             {
