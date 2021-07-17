@@ -47,7 +47,7 @@ for(;userName == "";)
         let flg = 0;
         let pause1 = document.getElementById("pause");
         let play1 = document.getElementById("play");  
-        let checker = false;
+        let checker = true;
         play1.style.display = "none";
         let collect = [];
         function scoreBoard(userName,highScore)
