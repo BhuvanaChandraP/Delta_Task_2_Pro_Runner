@@ -21,7 +21,7 @@ function playAudio2() {
 
 
 let userName = prompt("Enter your user name");
-for(;userName == "";)
+for(;userName == "" && userName == null;)
 {
     userName = prompt("Enter your user name"); 
 }
